@@ -29,7 +29,6 @@
 <?php
 include('./model/dbConnection.php');
 include('./controller/loginController.php');
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $firstName = $_POST['username'];
     $password = $_POST['password'];

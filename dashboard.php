@@ -78,6 +78,5 @@
     <a href="logout.php" class="logout-btn">Logout</a>
     <a href="view/update_profile.php" class="update-btn">Update Profile</a>
 </div>
-
 </body>
 </html>

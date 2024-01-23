@@ -10,7 +10,6 @@ class LoginModel {
             die("Database error: " . $this->conn->error);
         }
         if ($result->num_rows > 0) {
-           
             $userDetails = $result->fetch_assoc();
             return $userDetails;
         } else {

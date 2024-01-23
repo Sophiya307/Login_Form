@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start(); 
 
 if (!isset($_SESSION['user_details'])) {
     header("Location: ../view/loginView.php?message=Please login to update your profile");

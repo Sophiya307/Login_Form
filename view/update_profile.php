@@ -62,7 +62,6 @@ $userDetails = $_SESSION['user_details'];
     </style>
 </head>
 <body>
-
 <div class="update-profile-container">
     <h2>Update Profile</h2>
     <form action="../controller/process_updateProfile.php" method="post">

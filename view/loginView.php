@@ -19,7 +19,6 @@
             <button type="submit">Login</button>
         </form>
     </div>
-
     <script src="../assets/script.js"></script>
 </body>
 </html>
