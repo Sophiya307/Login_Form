@@ -37,7 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $loginController = new LoginController($conn);
 
     if ($loginController->authenticateUser($firstName, $password)) {
-        echo "<p class='login-success'>Login successful!</p>";
+        header("Location: dashboard.php");
+        exit(); 
     } else {
         echo "<p class='error-message'>Invalid credentials!</p>";
     }
@@ -45,6 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     include('./view/loginView.php');
 }
 ?>
+
 
 </body>
 </html>
